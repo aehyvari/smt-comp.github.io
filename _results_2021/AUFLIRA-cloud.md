@@ -1,6 +1,6 @@
 ---
 layout: result
-resultdate: 2021-07-18 17:32:03
+resultdate: 2021-08-24 19:03:20
 
 year: 2021
 
@@ -32,7 +32,7 @@ parallel:
   abstained: 0
   timeout: 13
   memout: 0
-- name: Vampire
+- name: Vampire-Parallel
   competing: "yes"
   errorScore: 0
   correctScore: 1
@@ -44,7 +44,151 @@ parallel:
   abstained: 1
   timeout: 14
   memout: 0
+- name: UltimateEliminator+MathSAT
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 46.277
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 0
+  memout: 0
+- name: z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 8548.935
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 4
+  memout: 0
+- name: 2020-z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 8931.894
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 4
+  memout: 0
+- name: SMTInterpol
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 18432.548
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 14
+  memout: 0
+- name: 2020-Vampire
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 19197.96
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
 - name: Par4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 19200.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: 2019-Par4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 19200.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: 2020-CVC4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 19200.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: cvc5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 19200.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: Vampire
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 19200.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: veriT
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 19200.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: Vampire - fixed
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 19200.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: cvc5 - fixed
   competing: "no"
   errorScore: 0
   correctScore: 0
@@ -81,7 +225,7 @@ sat:
   abstained: 16
   timeout: 16
   memout: 0
-- name: Vampire
+- name: Vampire-Parallel
   competing: "yes"
   errorScore: 0
   correctScore: 0
@@ -92,6 +236,150 @@ sat:
   unsolved: 0
   abstained: 16
   timeout: 14
+  memout: 0
+- name: 2019-Par4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 16
+  timeout: 16
+  memout: 0
+- name: 2020-Vampire
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 16
+  timeout: 16
+  memout: 0
+- name: 2020-CVC4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 16
+  timeout: 16
+  memout: 0
+- name: 2020-z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 16
+  timeout: 4
+  memout: 0
+- name: cvc5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 16
+  timeout: 16
+  memout: 0
+- name: SMTInterpol
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 16
+  timeout: 14
+  memout: 0
+- name: UltimateEliminator+MathSAT
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 16
+  timeout: 0
+  memout: 0
+- name: Vampire
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 16
+  timeout: 16
+  memout: 0
+- name: veriT
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 16
+  timeout: 16
+  memout: 0
+- name: Vampire - fixed
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 16
+  timeout: 16
+  memout: 0
+- name: z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 16
+  timeout: 4
+  memout: 0
+- name: cvc5 - fixed
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 16
+  timeout: 16
   memout: 0
 unsat:
 - name: cvc5-gg
@@ -106,7 +394,7 @@ unsat:
   abstained: 13
   timeout: 13
   memout: 0
-- name: Vampire
+- name: Vampire-Parallel
   competing: "yes"
   errorScore: 0
   correctScore: 1
@@ -118,7 +406,151 @@ unsat:
   abstained: 13
   timeout: 14
   memout: 0
+- name: UltimateEliminator+MathSAT
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 8.828
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 3
+  abstained: 13
+  timeout: 0
+  memout: 0
+- name: z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 915.282
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 3
+  abstained: 13
+  timeout: 4
+  memout: 0
+- name: 2020-z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 984.167
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 3
+  abstained: 13
+  timeout: 4
+  memout: 0
+- name: 2020-Vampire
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 3597.96
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 3
+  abstained: 13
+  timeout: 16
+  memout: 0
 - name: Par4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 3600.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 3
+  abstained: 13
+  timeout: 16
+  memout: 0
+- name: 2019-Par4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 3600.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 3
+  abstained: 13
+  timeout: 16
+  memout: 0
+- name: 2020-CVC4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 3600.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 3
+  abstained: 13
+  timeout: 16
+  memout: 0
+- name: cvc5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 3600.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 3
+  abstained: 13
+  timeout: 16
+  memout: 0
+- name: SMTInterpol
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 3600.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 3
+  abstained: 13
+  timeout: 14
+  memout: 0
+- name: Vampire
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 3600.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 3
+  abstained: 13
+  timeout: 16
+  memout: 0
+- name: veriT
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 3600.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 3
+  abstained: 13
+  timeout: 16
+  memout: 0
+- name: Vampire - fixed
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 3600.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 3
+  abstained: 13
+  timeout: 16
+  memout: 0
+- name: cvc5 - fixed
   competing: "no"
   errorScore: 0
   correctScore: 0
@@ -143,7 +575,43 @@ twentyfour:
   abstained: 0
   timeout: 13
   memout: 0
-- name: Vampire
+- name: UltimateEliminator+MathSAT
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 46.277
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 0
+  memout: 0
+- name: z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 254.041
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 10
+  memout: 0
+- name: 2020-z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 264.909
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 11
+  memout: 0
+- name: Vampire-Parallel
   competing: "yes"
   errorScore: 0
   correctScore: 0
@@ -156,6 +624,114 @@ twentyfour:
   timeout: 15
   memout: 0
 - name: Par4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 384.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: 2019-Par4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 384.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: 2020-Vampire
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 384.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: 2020-CVC4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 384.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: cvc5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 384.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: SMTInterpol
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 384.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: Vampire
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 384.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: veriT
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 384.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: Vampire - fixed
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 384.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: cvc5 - fixed
   competing: "no"
   errorScore: 0
   correctScore: 0

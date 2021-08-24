@@ -1,6 +1,6 @@
 ---
 layout: result_comp
-resultdate: 2021-07-18 17:31:51
+resultdate: 2021-08-24 19:03:10
 
 year: 2021
 

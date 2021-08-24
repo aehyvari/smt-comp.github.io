@@ -1,6 +1,6 @@
 ---
 layout: result_comp
-resultdate: 2021-07-18 17:32:04
+resultdate: 2021-08-24 19:03:22
 
 year: 2021
 
@@ -18,41 +18,41 @@ winner_24s: SMTS cube-and-conquer
 
 parallel:
 - name: SMTS cube-and-conquer
-  correctScore: 0.05000000
-  timeScore: 0.01346230
+  correctScore: 0.05079365
+  timeScore: 0.01367598
   division: QF_LinearIntArith
   experimental: false
 - name: SMTS portfolio
   correctScore: 0.00000000
-  timeScore: 0.01419125
+  timeScore: 0.01396599
   division: QF_LinearRealArith
   experimental: false
 sat:
 - name: SMTS cube-and-conquer
-  correctScore: 0.05000000
-  timeScore: 0.01346230
+  correctScore: 0.05079365
+  timeScore: 0.01367598
   division: QF_LinearIntArith
   experimental: false
 - name: SMTS portfolio
   correctScore: 0.00000000
-  timeScore: 0.00246139
+  timeScore: 0.00242232
   division: QF_LinearRealArith
   experimental: false
 unsat:
 - name: SMTS portfolio
   correctScore: 0.00000000
-  timeScore: 0.00967248
+  timeScore: 0.00951895
   division: QF_LinearRealArith
   experimental: false
 twentyfour:
 - name: SMTS cube-and-conquer
-  correctScore: 0.25000000
-  timeScore: 0.01638045
+  correctScore: 0.25396825
+  timeScore: 0.01664045
   division: QF_LinearIntArith
   experimental: false
 - name: SMTS cube-and-conquer
   correctScore: 0.00000000
-  timeScore: 0.00008481
+  timeScore: 0.00008347
   division: QF_LinearRealArith
   experimental: false
 ---

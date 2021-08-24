@@ -1,6 +1,6 @@
 ---
 layout: result
-resultdate: 2021-07-18 17:32:11
+resultdate: 2021-08-24 19:03:28
 
 year: 2021
 
@@ -20,6 +20,30 @@ winner_unsat: "-"
 winner_24s: "-"
 
 parallel:
+- name: OpenSMT - fixed
+  competing: "no"
+  errorScore: 0
+  correctScore: 8
+  WallScore: 13891.901
+  solved: 8
+  solved_sat: 8
+  solved_unsat: 0
+  unsolved: 9
+  abstained: 0
+  timeout: 9
+  memout: 0
+- name: OpenSMT
+  competing: "no"
+  errorScore: 0
+  correctScore: 8
+  WallScore: 13896.633
+  solved: 8
+  solved_sat: 8
+  solved_unsat: 0
+  unsolved: 9
+  abstained: 0
+  timeout: 9
+  memout: 0
 - name: Par4
   competing: "no"
   errorScore: 0
@@ -31,6 +55,42 @@ parallel:
   unsolved: 10
   abstained: 0
   timeout: 10
+  memout: 0
+- name: Yices2
+  competing: "no"
+  errorScore: 0
+  correctScore: 7
+  WallScore: 16657.568
+  solved: 7
+  solved_sat: 4
+  solved_unsat: 3
+  unsolved: 10
+  abstained: 0
+  timeout: 10
+  memout: 0
+- name: 2019-Par4
+  competing: "no"
+  errorScore: 0
+  correctScore: 6
+  WallScore: 16564.973
+  solved: 6
+  solved_sat: 3
+  solved_unsat: 3
+  unsolved: 11
+  abstained: 0
+  timeout: 11
+  memout: 0
+- name: z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 1
+  WallScore: 20088.794
+  solved: 1
+  solved_sat: 1
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
   memout: 0
 - name: cvc5-gg
   competing: "yes"
@@ -44,30 +104,210 @@ parallel:
   abstained: 0
   timeout: 13
   memout: 0
+- name: cvc5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 20400.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 17
+  abstained: 0
+  timeout: 17
+  memout: 0
+- name: SMTInterpol
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 20400.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 17
+  abstained: 0
+  timeout: 17
+  memout: 0
+- name: veriT
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 20400.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 17
+  abstained: 0
+  timeout: 17
+  memout: 0
+- name: MathSAT5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 20400.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 17
+  abstained: 0
+  timeout: 17
+  memout: 0
+- name: cvc5 - fixed
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 20400.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 17
+  abstained: 0
+  timeout: 17
+  memout: 0
 sat:
+- name: OpenSMT - fixed
+  competing: "no"
+  errorScore: 0
+  correctScore: 8
+  WallScore: 4291.901
+  solved: 8
+  solved_sat: 8
+  solved_unsat: 0
+  unsolved: 1
+  abstained: 8
+  timeout: 9
+  memout: 0
+- name: OpenSMT
+  competing: "no"
+  errorScore: 0
+  correctScore: 8
+  WallScore: 4296.633
+  solved: 8
+  solved_sat: 8
+  solved_unsat: 0
+  unsolved: 1
+  abstained: 8
+  timeout: 9
+  memout: 0
+- name: Yices2
+  competing: "no"
+  errorScore: 0
+  correctScore: 4
+  WallScore: 8341.401
+  solved: 4
+  solved_sat: 4
+  solved_unsat: 0
+  unsolved: 5
+  abstained: 8
+  timeout: 10
+  memout: 0
 - name: Par4
   competing: "no"
   errorScore: 0
   correctScore: 3
-  WallScore: 593.675
+  WallScore: 7793.675
   solved: 3
   solved_sat: 3
   solved_unsat: 0
-  unsolved: 0
-  abstained: 14
+  unsolved: 6
+  abstained: 8
   timeout: 10
+  memout: 0
+- name: 2019-Par4
+  competing: "no"
+  errorScore: 0
+  correctScore: 3
+  WallScore: 8279.244
+  solved: 3
+  solved_sat: 3
+  solved_unsat: 0
+  unsolved: 6
+  abstained: 8
+  timeout: 11
+  memout: 0
+- name: z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 1
+  WallScore: 10488.794
+  solved: 1
+  solved_sat: 1
+  solved_unsat: 0
+  unsolved: 8
+  abstained: 8
+  timeout: 16
   memout: 0
 - name: cvc5-gg
   competing: "yes"
   errorScore: 0
   correctScore: 0
-  WallScore: 3600.0
+  WallScore: 10800.0
   solved: 0
   solved_sat: 0
   solved_unsat: 0
-  unsolved: 3
-  abstained: 14
+  unsolved: 9
+  abstained: 8
   timeout: 13
+  memout: 0
+- name: cvc5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 10800.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 9
+  abstained: 8
+  timeout: 17
+  memout: 0
+- name: SMTInterpol
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 10800.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 9
+  abstained: 8
+  timeout: 17
+  memout: 0
+- name: veriT
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 10800.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 9
+  abstained: 8
+  timeout: 17
+  memout: 0
+- name: MathSAT5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 10800.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 9
+  abstained: 8
+  timeout: 17
+  memout: 0
+- name: cvc5 - fixed
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 10800.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 9
+  abstained: 8
+  timeout: 17
   memout: 0
 unsat:
 - name: Par4
@@ -79,6 +319,30 @@ unsat:
   solved_sat: 0
   solved_unsat: 4
   unsolved: 2
+  abstained: 11
+  timeout: 10
+  memout: 0
+- name: 2019-Par4
+  competing: "no"
+  errorScore: 0
+  correctScore: 3
+  WallScore: 5885.729
+  solved: 3
+  solved_sat: 0
+  solved_unsat: 3
+  unsolved: 3
+  abstained: 11
+  timeout: 11
+  memout: 0
+- name: Yices2
+  competing: "no"
+  errorScore: 0
+  correctScore: 3
+  WallScore: 5916.167
+  solved: 3
+  solved_sat: 0
+  solved_unsat: 3
+  unsolved: 3
   abstained: 11
   timeout: 10
   memout: 0
@@ -94,7 +358,127 @@ unsat:
   abstained: 11
   timeout: 13
   memout: 0
+- name: cvc5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 7200.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 6
+  abstained: 11
+  timeout: 17
+  memout: 0
+- name: OpenSMT
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 7200.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 6
+  abstained: 11
+  timeout: 9
+  memout: 0
+- name: SMTInterpol
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 7200.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 6
+  abstained: 11
+  timeout: 17
+  memout: 0
+- name: veriT
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 7200.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 6
+  abstained: 11
+  timeout: 17
+  memout: 0
+- name: OpenSMT - fixed
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 7200.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 6
+  abstained: 11
+  timeout: 9
+  memout: 0
+- name: MathSAT5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 7200.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 6
+  abstained: 11
+  timeout: 17
+  memout: 0
+- name: z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 7200.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 6
+  abstained: 11
+  timeout: 16
+  memout: 0
+- name: cvc5 - fixed
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 7200.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 6
+  abstained: 11
+  timeout: 17
+  memout: 0
 twentyfour:
+- name: OpenSMT
+  competing: "no"
+  errorScore: 0
+  correctScore: 1
+  WallScore: 403.146
+  solved: 1
+  solved_sat: 1
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: OpenSMT - fixed
+  competing: "no"
+  errorScore: 0
+  correctScore: 1
+  WallScore: 403.286
+  solved: 1
+  solved_sat: 1
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
 - name: cvc5-gg
   competing: "yes"
   errorScore: 0
@@ -108,6 +492,102 @@ twentyfour:
   timeout: 13
   memout: 0
 - name: Par4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 408.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 17
+  abstained: 0
+  timeout: 17
+  memout: 0
+- name: 2019-Par4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 408.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 17
+  abstained: 0
+  timeout: 17
+  memout: 0
+- name: cvc5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 408.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 17
+  abstained: 0
+  timeout: 17
+  memout: 0
+- name: SMTInterpol
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 408.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 17
+  abstained: 0
+  timeout: 17
+  memout: 0
+- name: veriT
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 408.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 17
+  abstained: 0
+  timeout: 17
+  memout: 0
+- name: Yices2
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 408.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 17
+  abstained: 0
+  timeout: 17
+  memout: 0
+- name: MathSAT5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 408.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 17
+  abstained: 0
+  timeout: 17
+  memout: 0
+- name: z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 408.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 17
+  abstained: 0
+  timeout: 17
+  memout: 0
+- name: cvc5 - fixed
   competing: "no"
   errorScore: 0
   correctScore: 0

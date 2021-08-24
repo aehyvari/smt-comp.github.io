@@ -1,6 +1,6 @@
 ---
 layout: result
-resultdate: 2021-07-18 17:32:03
+resultdate: 2021-08-24 19:03:21
 
 year: 2021
 
@@ -34,7 +34,91 @@ parallel:
   abstained: 0
   timeout: 1
   memout: 0
+- name: UltimateEliminator+MathSAT
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 4862.879
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 0
+  memout: 4
+- name: cvc5 - fixed
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 15684.469
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 10
+  memout: 0
+- name: 2020-CVC4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 15753.523
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 10
+  memout: 0
+- name: cvc5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 16279.6
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 11
+  memout: 0
 - name: Par4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 19200.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: 2018-Z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 19200.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: 2020-z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 19200.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: z3
   competing: "no"
   errorScore: 0
   correctScore: 0
@@ -71,6 +155,90 @@ sat:
   abstained: 16
   timeout: 16
   memout: 0
+- name: 2018-Z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 16
+  timeout: 16
+  memout: 0
+- name: 2020-CVC4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 16
+  timeout: 10
+  memout: 0
+- name: 2020-z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 16
+  timeout: 16
+  memout: 0
+- name: cvc5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 16
+  timeout: 11
+  memout: 0
+- name: UltimateEliminator+MathSAT
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 16
+  timeout: 0
+  memout: 4
+- name: z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 16
+  timeout: 16
+  memout: 0
+- name: cvc5 - fixed
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 16
+  timeout: 10
+  memout: 0
 unsat:
 - name: cvc5-gg
   competing: "yes"
@@ -84,7 +252,91 @@ unsat:
   abstained: 1
   timeout: 1
   memout: 0
+- name: UltimateEliminator+MathSAT
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 4859.974
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 15
+  abstained: 1
+  timeout: 0
+  memout: 4
+- name: cvc5 - fixed
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 14484.469
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 15
+  abstained: 1
+  timeout: 10
+  memout: 0
+- name: 2020-CVC4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 14553.523
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 15
+  abstained: 1
+  timeout: 10
+  memout: 0
+- name: cvc5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 15079.6
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 15
+  abstained: 1
+  timeout: 11
+  memout: 0
 - name: Par4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 18000.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 15
+  abstained: 1
+  timeout: 16
+  memout: 0
+- name: 2018-Z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 18000.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 15
+  abstained: 1
+  timeout: 16
+  memout: 0
+- name: 2020-z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 18000.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 15
+  abstained: 1
+  timeout: 16
+  memout: 0
+- name: z3
   competing: "no"
   errorScore: 0
   correctScore: 0
@@ -109,7 +361,91 @@ twentyfour:
   abstained: 0
   timeout: 3
   memout: 0
+- name: UltimateEliminator+MathSAT
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 156.851
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 1
+  memout: 4
 - name: Par4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 384.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: 2018-Z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 384.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: 2020-CVC4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 384.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: 2020-z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 384.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: cvc5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 384.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 384.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 16
+  abstained: 0
+  timeout: 16
+  memout: 0
+- name: cvc5 - fixed
   competing: "no"
   errorScore: 0
   correctScore: 0

@@ -1,6 +1,6 @@
 ---
 layout: result_comp
-resultdate: 2021-07-18 17:32:04
+resultdate: 2021-08-24 19:03:22
 
 year: 2021
 
@@ -18,19 +18,19 @@ parallel:
   timeScore: 1.53726308
   division: QF_Bitvec
   experimental: false
-- name: Vampire
+- name: Vampire-Parallel
   second: cvc5-gg
   correctScore: 6.00000000
   timeScore: 0.00006331
   division: Arith
   experimental: false
-- name: Vampire
+- name: Vampire-Parallel
   second: cvc5-gg
   correctScore: 5.33333333
   timeScore: 1.18668312
   division: Equality
   experimental: false
-- name: Vampire
+- name: Vampire-Parallel
   second: cvc5-gg
   correctScore: 1.72727273
   timeScore: 0.34649141
@@ -48,7 +48,7 @@ parallel:
   timeScore: 1.02650158
   division: QF_LinearRealArith
   experimental: false
-- name: Vampire
+- name: Vampire-Parallel
   second: cvc5-gg
   correctScore: 0.75675676
   timeScore: 0.83634365

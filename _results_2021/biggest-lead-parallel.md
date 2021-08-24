@@ -1,6 +1,6 @@
 ---
 layout: result_comp
-resultdate: 2021-07-18 17:32:12
+resultdate: 2021-08-24 19:03:29
 
 year: 2021
 
@@ -10,15 +10,15 @@ participants: participants_2021
 track: track_parallel
 recognition: biggest_lead
 
-winner_par: Vampire
+winner_par: Vampire-Parallel
 parallel:
-- name: Vampire
+- name: Vampire-Parallel
   second: cvc5-gg
   correctScore: 6.00000000
   timeScore: 0.15685024
   division: Equality
   experimental: false
-- name: Vampire
+- name: Vampire-Parallel
   second: cvc5-gg
   correctScore: 6.00000000
   timeScore: 0.00005507
@@ -31,12 +31,12 @@ parallel:
   division: QF_Bitvec
   experimental: false
 - name: cvc5-gg
-  second: Vampire
+  second: Vampire-Parallel
   correctScore: 1.30000000
   timeScore: 14.97489024
   division: Equality+NonLinearArith
   experimental: false
-- name: Vampire
+- name: Vampire-Parallel
   second: cvc5-gg
   correctScore: 0.69230769
   timeScore: 0.32129329
