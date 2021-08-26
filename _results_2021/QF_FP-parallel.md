@@ -1,6 +1,6 @@
 ---
 layout: result
-resultdate: 2021-08-24 19:03:28
+resultdate: 2021-08-26 11:25:11
 
 year: 2021
 
@@ -166,13 +166,13 @@ parallel:
   memout: 0
 - name: Par4
   competing: "no"
-  errorScore: 8
-  correctScore: 7
+  errorScore: 11
+  correctScore: 4
   WallScore: 0.138
-  solved: 7
-  solved_sat: 7
+  solved: 4
+  solved_sat: 4
   solved_unsat: 0
-  unsolved: 8
+  unsolved: 11
   abstained: 0
   timeout: 0
   memout: 0
@@ -181,156 +181,156 @@ sat:
   competing: "no"
   errorScore: 0
   correctScore: 2
-  WallScore: 4915.043
+  WallScore: 2515.043
   solved: 2
   solved_sat: 2
   solved_unsat: 0
-  unsolved: 5
-  abstained: 8
+  unsolved: 2
+  abstained: 11
   timeout: 12
   memout: 0
 - name: COLIBRI - fixed
   competing: "no"
   errorScore: 0
   correctScore: 2
-  WallScore: 6115.417
+  WallScore: 2515.417
   solved: 2
   solved_sat: 2
   solved_unsat: 0
-  unsolved: 5
-  abstained: 8
+  unsolved: 2
+  abstained: 11
   timeout: 13
   memout: 0
 - name: 2020-COLIBRI
   competing: "no"
   errorScore: 0
   correctScore: 2
-  WallScore: 6152.269
+  WallScore: 2552.269
   solved: 2
   solved_sat: 2
   solved_unsat: 0
-  unsolved: 5
-  abstained: 8
+  unsolved: 2
+  abstained: 11
   timeout: 13
   memout: 0
 - name: 2020-Bitwuzla
   competing: "no"
   errorScore: 0
   correctScore: 1
-  WallScore: 5931.15
+  WallScore: 4731.15
   solved: 1
   solved_sat: 1
   solved_unsat: 0
-  unsolved: 6
-  abstained: 8
+  unsolved: 3
+  abstained: 11
   timeout: 4
   memout: 0
 - name: 2020-Bitwuzla-fixed
   competing: "no"
   errorScore: 0
   correctScore: 1
-  WallScore: 5956.7
+  WallScore: 4756.7
   solved: 1
   solved_sat: 1
   solved_unsat: 0
-  unsolved: 6
-  abstained: 8
+  unsolved: 3
+  abstained: 11
   timeout: 4
   memout: 0
 - name: Bitwuzla
   competing: "no"
   errorScore: 0
   correctScore: 1
-  WallScore: 5992.26
+  WallScore: 4792.26
   solved: 1
   solved_sat: 1
   solved_unsat: 0
-  unsolved: 6
-  abstained: 8
+  unsolved: 3
+  abstained: 11
   timeout: 4
-  memout: 0
-- name: cvc5
-  competing: "no"
-  errorScore: 0
-  correctScore: 0
-  WallScore: 7200.0
-  solved: 0
-  solved_sat: 0
-  solved_unsat: 0
-  unsolved: 7
-  abstained: 8
-  timeout: 6
   memout: 0
 - name: z3
   competing: "no"
   errorScore: 0
   correctScore: 0
-  WallScore: 7952.29
+  WallScore: 4352.29
   solved: 0
   solved_sat: 0
   solved_unsat: 0
-  unsolved: 7
-  abstained: 8
+  unsolved: 4
+  abstained: 11
   timeout: 14
   memout: 0
 - name: cvc5-gg
   competing: "yes"
   errorScore: 0
   correctScore: 0
-  WallScore: 8400.0
+  WallScore: 4800.0
   solved: 0
   solved_sat: 0
   solved_unsat: 0
-  unsolved: 7
-  abstained: 8
+  unsolved: 4
+  abstained: 11
   timeout: 9
   memout: 0
 - name: 2020-CVC4
   competing: "no"
   errorScore: 0
   correctScore: 0
-  WallScore: 8400.0
+  WallScore: 4800.0
   solved: 0
   solved_sat: 0
   solved_unsat: 0
-  unsolved: 7
-  abstained: 8
+  unsolved: 4
+  abstained: 11
   timeout: 11
   memout: 0
 - name: 2020-MathSAT5
   competing: "no"
   errorScore: 0
   correctScore: 0
-  WallScore: 8400.0
+  WallScore: 4800.0
   solved: 0
   solved_sat: 0
   solved_unsat: 0
-  unsolved: 7
-  abstained: 8
+  unsolved: 4
+  abstained: 11
   timeout: 8
+  memout: 0
+- name: cvc5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 4800.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 4
+  abstained: 11
+  timeout: 6
   memout: 0
 - name: MathSAT5
   competing: "no"
   errorScore: 0
   correctScore: 0
-  WallScore: 8400.0
+  WallScore: 4800.0
   solved: 0
   solved_sat: 0
   solved_unsat: 0
-  unsolved: 7
-  abstained: 8
+  unsolved: 4
+  abstained: 11
   timeout: 8
   memout: 0
 - name: Par4
   competing: "no"
-  errorScore: 8
-  correctScore: 7
+  errorScore: 11
+  correctScore: 4
   WallScore: 0.138
-  solved: 7
-  solved_sat: 7
+  solved: 4
+  solved_sat: 4
   solved_unsat: 0
   unsolved: 0
-  abstained: 8
+  abstained: 11
   timeout: 0
   memout: 0
 unsat:
@@ -637,13 +637,13 @@ twentyfour:
   memout: 0
 - name: Par4
   competing: "no"
-  errorScore: 8
-  correctScore: 7
+  errorScore: 11
+  correctScore: 4
   WallScore: 0.138
-  solved: 7
-  solved_sat: 7
+  solved: 4
+  solved_sat: 4
   solved_unsat: 0
-  unsolved: 8
+  unsolved: 11
   abstained: 0
   timeout: 0
   memout: 0

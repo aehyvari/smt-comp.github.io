@@ -1,6 +1,6 @@
 ---
 layout: result
-resultdate: 2021-08-24 19:03:27
+resultdate: 2021-08-26 11:25:11
 
 year: 2021
 
@@ -166,17 +166,29 @@ parallel:
   memout: 0
 - name: Par4
   competing: "no"
-  errorScore: 1
-  correctScore: 2
+  errorScore: 3
+  correctScore: 0
   WallScore: 0.027
-  solved: 2
-  solved_sat: 2
+  solved: 0
+  solved_sat: 0
   solved_unsat: 0
-  unsolved: 1
+  unsolved: 3
   abstained: 0
   timeout: 0
   memout: 0
 sat:
+- name: cvc5-gg
+  competing: "yes"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 3
+  timeout: 2
+  memout: 0
 - name: 2020-COLIBRI
   competing: "no"
   errorScore: 0
@@ -185,8 +197,20 @@ sat:
   solved: 0
   solved_sat: 0
   solved_unsat: 0
-  unsolved: 2
-  abstained: 1
+  unsolved: 0
+  abstained: 3
+  timeout: 1
+  memout: 0
+- name: 2020-CVC4
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 3
   timeout: 1
   memout: 0
 - name: 2020-Bitwuzla
@@ -197,9 +221,21 @@ sat:
   solved: 0
   solved_sat: 0
   solved_unsat: 0
-  unsolved: 2
-  abstained: 1
+  unsolved: 0
+  abstained: 3
   timeout: 0
+  memout: 0
+- name: 2020-MathSAT5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 3
+  timeout: 3
   memout: 0
 - name: 2020-Bitwuzla-fixed
   competing: "no"
@@ -209,8 +245,8 @@ sat:
   solved: 0
   solved_sat: 0
   solved_unsat: 0
-  unsolved: 2
-  abstained: 1
+  unsolved: 0
+  abstained: 3
   timeout: 0
   memout: 0
 - name: Bitwuzla
@@ -221,8 +257,8 @@ sat:
   solved: 0
   solved_sat: 0
   solved_unsat: 0
-  unsolved: 2
-  abstained: 1
+  unsolved: 0
+  abstained: 3
   timeout: 0
   memout: 0
 - name: COLIBRI
@@ -233,9 +269,45 @@ sat:
   solved: 0
   solved_sat: 0
   solved_unsat: 0
-  unsolved: 2
-  abstained: 1
+  unsolved: 0
+  abstained: 3
   timeout: 1
+  memout: 0
+- name: cvc5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 3
+  timeout: 1
+  memout: 0
+- name: MathSAT5
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 3
+  timeout: 3
+  memout: 0
+- name: z3
+  competing: "no"
+  errorScore: 0
+  correctScore: 0
+  WallScore: 0.0
+  solved: 0
+  solved_sat: 0
+  solved_unsat: 0
+  unsolved: 0
+  abstained: 3
+  timeout: 3
   memout: 0
 - name: COLIBRI - fixed
   competing: "no"
@@ -245,92 +317,20 @@ sat:
   solved: 0
   solved_sat: 0
   solved_unsat: 0
-  unsolved: 2
-  abstained: 1
+  unsolved: 0
+  abstained: 3
   timeout: 1
-  memout: 0
-- name: 2020-CVC4
-  competing: "no"
-  errorScore: 0
-  correctScore: 0
-  WallScore: 1200.0
-  solved: 0
-  solved_sat: 0
-  solved_unsat: 0
-  unsolved: 2
-  abstained: 1
-  timeout: 1
-  memout: 0
-- name: cvc5
-  competing: "no"
-  errorScore: 0
-  correctScore: 0
-  WallScore: 1200.0
-  solved: 0
-  solved_sat: 0
-  solved_unsat: 0
-  unsolved: 2
-  abstained: 1
-  timeout: 1
-  memout: 0
-- name: cvc5-gg
-  competing: "yes"
-  errorScore: 0
-  correctScore: 0
-  WallScore: 2400.0
-  solved: 0
-  solved_sat: 0
-  solved_unsat: 0
-  unsolved: 2
-  abstained: 1
-  timeout: 2
-  memout: 0
-- name: 2020-MathSAT5
-  competing: "no"
-  errorScore: 0
-  correctScore: 0
-  WallScore: 2400.0
-  solved: 0
-  solved_sat: 0
-  solved_unsat: 0
-  unsolved: 2
-  abstained: 1
-  timeout: 3
-  memout: 0
-- name: MathSAT5
-  competing: "no"
-  errorScore: 0
-  correctScore: 0
-  WallScore: 2400.0
-  solved: 0
-  solved_sat: 0
-  solved_unsat: 0
-  unsolved: 2
-  abstained: 1
-  timeout: 3
-  memout: 0
-- name: z3
-  competing: "no"
-  errorScore: 0
-  correctScore: 0
-  WallScore: 2400.0
-  solved: 0
-  solved_sat: 0
-  solved_unsat: 0
-  unsolved: 2
-  abstained: 1
-  timeout: 3
   memout: 0
 - name: Par4
   competing: "no"
-  errorScore: 1
-  correctScore: 2
+  errorScore: 3
+  correctScore: 0
   WallScore: 0.027
-  solved: 2
-  solved_sat: 2
+  solved: 0
+  solved_sat: 0
   solved_unsat: 0
   unsolved: 0
-  abstained: 1
+  abstained: 3
   timeout: 0
   memout: 0
 unsat:
@@ -637,13 +637,13 @@ twentyfour:
   memout: 0
 - name: Par4
   competing: "no"
-  errorScore: 1
-  correctScore: 2
+  errorScore: 3
+  correctScore: 0
   WallScore: 0.027
-  solved: 2
-  solved_sat: 2
+  solved: 0
+  solved_sat: 0
   solved_unsat: 0
-  unsolved: 1
+  unsolved: 3
   abstained: 0
   timeout: 0
   memout: 0
