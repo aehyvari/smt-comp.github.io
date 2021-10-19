@@ -1,0 +1,28 @@
+---
+plot_data: plot_data
+---
+
+{% include head.html %}
+
+<h2> {{ page.track }} track </h2>
+
+<h3> {{ page.division }} division</h3>
+
+<img src="/{{ page.year }}/{{ layout.plot_data }}/{{ page.plot }}"/>
+
+{% if page.unsound %}
+ - Unsound solvers on this track and division:
+   {% for solver in page.unsound %}
+   - {{ solver.name }}
+   {% endfor %}
+{% endif %}
+
+<p>
+{% if page.average_speedup %}
+Average speedup: {{ page.average_speedup }}
+{% endif %}
+<p>
+{% if page.total_speedup %}
+Total speedup: {{ page.total_speedup }}
+{% endif %}
+
