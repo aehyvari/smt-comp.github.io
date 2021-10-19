@@ -11,10 +11,13 @@ plot_data: plot_data
 <img src="/{{ page.year }}/{{ layout.plot_data }}/{{ page.plot }}"/>
 
 {% if page.unsound %}
- - Unsound solvers on this track and division:
+<p>
+Unsound solvers on this track and division:
+<ul>
    {% for solver in page.unsound %}
-   - {{ solver.name }}
+   <li>{{ solver.name }}</li>
    {% endfor %}
+</ul>
 {% endif %}
 
 <p>
