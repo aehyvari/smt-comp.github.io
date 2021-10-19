@@ -97,9 +97,10 @@ all the competitors.
 <p>
 
 The rules also provide a score for the <em>largest contribution</em>
-score. This year the score seems to give a more consistent view, while
-it unfortunately, due to lack of competition, could be defined only for
-two divisions (the winners in the table tracks are both my solvers).
+score. This year the score seems to offer a slightly more consistent
+view.  Unfortunately, due to lack of competition, the score could be
+defined only for two divisions (the winners in the table are both
+my solvers).
 
 {% assign cloudLargestContribution = site.results_2021 |where: "track", "track_cloud" |where: "recognition", "largest_contribution" | first %}
 {% assign participants = site[cloudLargestContribution.participants] %}
